@@ -1,0 +1,1871 @@
+/*****************PAGE LOGIN ENTREPRISE*****************/
+
+.home-texte-adhesion {
+    font-family: 'robotolight';
+    margin-bottom: 17px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+h2.titre-vert-login {
+    color: #f9883c;
+    font-size: 14px;
+    margin: 0px;
+    margin-bottom: 8px;
+    letter-spacing: 0.1px;
+    font-family: 'ralewaybold';
+}
+
+h2.titre-vert-login img {
+    width: 25px;
+    margin-right: 4px;
+}
+
+.bloc-titre-entreprise {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+
+/*****************PAGE LOGIN EXPERT COMPTABLE*****************/
+
+div#login-expert-comptable div.connexion {
+    position: inherit !important;
+    top: inherit !important;
+    padding: 100px 0px 130px 0px;
+    background-image: url(../img/home/fond-comtpable2.jpg);
+    background-size: cover;
+}
+
+div#login-expert-comptable .btn-next {
+    background-color: #51a4ea;
+    color: #fff;
+    border-bottom: 2px solid #376c98;
+    font-family: 'robotolight';
+    transition: 1s;
+}
+
+div#login-expert-comptable .btn-next:hover {
+    border-bottom: 2px solid #51a4ea;
+    font-family: 'robotolight';
+    transition: 1s;
+}
+
+div#login-expert-comptable a.forgot-login {
+    color: #51a4ea;
+}
+
+.titre-form-login.espace-expert-comptable {
+    background-color: #51a4ea;
+}
+
+/* bordure */
+hr.trait-titre-expert-c {
+    border-top: 1px solid #51a4ea;
+    margin-top: 0px !important;
+}
+
+hr.trait-titre-cga {
+    border-top: 1px solid #dc5454;
+    margin-top: 0px !important;
+}
+
+hr.trait-titre-ent {
+    border-top: 1px solid #4EB493;
+    margin-top: 0px !important;
+    margin-bottom: 10px;
+}
+
+/*****************PAGE LOGIN CGA*****************/
+
+div#login-cga div.connexion {
+    position: inherit !important;
+    top: inherit !important;
+    padding: 130px 0px;
+    background-image: url(../img/home/fond-cga2.jpg);
+    background-size: cover;
+}
+
+.titre-form-login.espace-cga {
+    background-color: #dc5454;
+}
+
+
+/*****************PAGE LOGIN MULTI ESPACE*****************/
+
+
+/* Top Page */
+h1.titre-blanc {
+    color: white;
+    font-family: 'ralewaybold';
+    font-size: 35px;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+
+@media (max-width: 1200px) {
+    h1.titre-blanc {
+        font-size: 25px;
+    }    
+}
+/*Bottom page*/
+h2.titre-noir {
+    font-size: 23px;
+    color: #0000008c;
+    font-family: 'robotolight';
+    margin: 0px;
+}
+
+h3.titre-orange {
+    font-family: "ralewaybold";
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 0px;
+    color: #fa883d;
+}
+
+p.description3 {
+    font-family: 'robotolight';
+    font-size: 17px;
+    color: white;
+    line-height: 24px;
+}
+
+
+@media (max-width: 1200px) {
+    p.description3 {
+        font-size: 14px;
+    }    
+}
+
+p.opacite {
+    color: #ffffffbd;
+}
+
+p.description span {
+    font-family: 'robotoregular';
+}
+
+p.white {
+    font-family: 'robotoregular';
+    color: white;
+}
+
+@media (max-width: 1024px) {
+    .titre-service-espace {
+        display: none !important;
+    }
+}
+
+.border-cga h3 {
+    color: white;
+}
+
+.border-comptable h3  {
+    color: white;
+}
+
+.border-contribuable h3  {
+    color:white;
+} 
+
+.border-particulier h3  {
+    color:white;
+}
+.border-orange-light {
+    border-radius: 3px;
+    background: white;
+    border-left: 10px solid #f9883c70;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+    transition: 1s;
+}
+
+.border-orange-light:hover {
+    box-shadow: none;
+    transition: 1s;
+}
+.border-cga {
+    background: #dc5454;
+    box-shadow: 0px 10px 30px 0px rgba(181, 69, 69, 0.3);
+    transition: 1s;
+    border-radius: 3px;
+}
+
+.border-cga:hover {
+    background: #c54f4f;
+    box-shadow: none;
+    transition: 1s;
+}
+
+.border-comptable {
+    background: #51a4ea;
+    border-radius: 3px;
+    box-shadow: 0px 10px 30px 0px rgba(68, 138, 197, 0.3);
+    transition: 1s;
+}
+
+.border-comptable:hover {
+    background: #448ac5;
+    box-shadow: none;
+    transition: 1s;
+}
+
+.border-contribuable {
+    background: #00b595;
+    box-shadow: 0px 10px 30px 0px rgba(0, 136, 112, 0.3);
+    transition: 1s;
+    border-radius: 3px;
+}
+
+.border-contribuable:hover {
+    box-shadow: none;
+    transition: 1s;
+    background: #00a587;
+}
+
+.border-particulier {
+    background: #f9883c;
+    box-shadow: 0px 10px 30px 0px rgba(249, 136, 60, 0.3);
+    transition: 1s;
+    border-radius: 3px;
+}
+
+.border-particulier:hover {
+    box-shadow: none;
+    transition: 1s;
+    background: #e47b34;
+}
+
+/* flex */
+.flex {
+    display: flex;
+}
+@media (max-width: 414px) {
+    .menu .flex-annul-tab {
+        display: inherit !important;
+    }
+}
+@media (max-width:768px) {
+    .phone-flex-row-start-center {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start !important;
+        align-items: center;
+    }
+    .flex-annul-tab {
+        display: inherit !important;
+    }
+    
+    .bloc-btn-espace {
+        padding-bottom: 20px;
+    }
+}
+
+/*Fin Bottom page*/
+
+
+/* boutons , liens */
+.switchLocaleLink a {
+    color: black;
+    font-size: 12px;
+    margin-left: 5px;
+    font-family: 'robotobold';
+    text-decoration: none;
+}
+.switchLocaleLink a:hover {
+    text-decoration: underline;
+}
+
+.home-zone-login .switchLocaleLink a {color: white !important;}
+
+.espace-ent .switchLocaleLink a,
+.espace-cga .switchLocaleLink a,
+.espace-expert-comptable .switchLocaleLink a {
+    color: black !important;
+}
+
+.btn-espace {
+    color: #404040;
+    margin-right: 8px;
+    letter-spacing: 0.1px;
+    font-size: 12px;
+    transition: 1s;
+    padding: 7px 15px;
+    border-radius: 3px;
+}
+@media (max-width:768px) {
+    .btn-espace {
+        color: #404040;
+        margin-right: 3px;
+        letter-spacing: 0.1px;
+        font-size: 11px;
+        transition: 1s;
+        padding: 7px 7px;
+    }
+}
+
+
+.btn-espace.contribuable {
+    border: 1px solid #00b595;
+    color: #00b595;
+    transition: 1s;
+}
+
+.btn-espace.contribuable::before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    background-image: url(https://e-impots.gouv.ci/img/home/contri-color.svg);
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position-x: 0;
+    background-position-y: center;
+    margin-right: 6px;
+    transition: 1s;
+}
+
+.btn-espace.contribuable:hover {
+    background: #00b595;
+    color: white;
+    transition: 1s;
+    text-decoration: none;
+}
+
+.btn-espace.contribuable:hover::before {
+    background-image: url(https://e-impots.gouv.ci/img/home/contri.svg);
+    transition: 1s;
+}
+
+.btn-espace.contribuable:not(hover)::before {
+    transition: 1s;
+}
+
+.btn-espace.comptable {
+    border: 1px solid #51a4ea;
+    color: #51a4ea;
+    transition: 1s;
+    white-space: nowrap;
+}
+
+.btn-espace.comptable::before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    background-image: url(https://e-impots.gouv.ci/img/comptable-color.svg);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: 0;
+    background-position-y: center;
+    margin-right: 6px;
+    transition: 1s;
+}
+
+
+.btn-espace.comptable:hover {
+    background: #51a4ea;
+    color: white;
+    transition: 1s;
+    text-decoration: none;
+}
+
+.btn-espace.comptable:hover::before {
+    background-image: url(https://e-impots.gouv.ci/img/comptable.svg);
+    transition: 1s;
+}
+
+.btn-espace.comptable:not(hover)::before {
+    transition: 1s;
+}
+
+
+.btn-espace.particulier {
+    border: 1px solid #f9883c;
+    color: #f9883c;
+}
+
+.btn-espace.particulier::before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    background-image: url(https://e-impots.gouv.ci/img/mobile-color.svg);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: 0;
+    background-position-y: center;
+    margin-right: 6px;
+    transition: 1s;
+}
+
+.btn-espace.particulier:hover {
+    background: #f9883c;
+    color: white;
+    transition: 1s;
+    text-decoration: none;
+}
+
+.btn-espace.particulier:hover::before {
+    background-image: url(https://e-impots.gouv.ci/img/mobile.svg);
+    transition: 1s;
+}
+
+.btn-espace.particulier:not(hover)::before {
+    transition: 1s;
+}
+
+.btn-espace.cga {
+    border: 1px solid #dc5454;
+    color: #dc5454;
+}
+
+.btn-espace.cga::before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    background-image: url(https://e-impots.gouv.ci/img/management-color.svg);
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position-x: 0;
+    background-position-y: center;
+    margin-right: 5px;
+    transition: 1s;
+}
+
+.btn-espace.cga:hover {
+    background: #dc5454;
+    color: white;
+    transition: 1s;
+    text-decoration: none;
+}
+
+.btn-espace.cga:hover::before {
+    background-image: url(https://e-impots.gouv.ci/img/management.svg);
+    transition: 1s;
+}
+.btn-espace.cga:not(hover)::before {
+    transition: 1s;
+}
+
+@media (max-width: 768px) {
+    .btn-espace.cga::before,
+    .btn-espace.particulier::before,
+    .btn-espace.comptable::before,
+    .btn-espace.contribuable::before {
+        display: none;
+    }
+}
+
+div#cga .btn-next {
+    background-color: #dc5454;
+    color: #fff;
+    border-bottom: 2px solid #a04141;
+    font-family: 'robotolight';
+    transition: 1s;
+}
+
+div#cga .btn-next:hover {
+    border-bottom: 2px solid #dc5454;
+    font-family: 'robotolight';
+    transition: 1s;
+}
+
+div#cga a.forgot-login {
+    color: #dc5454
+}
+
+.btn-orange-login {
+    background-color: #f9883c;
+    color: #fff;
+    border-bottom: 2px solid #c16e36;
+    font-family: 'robotolight';
+    transition: 1s;
+}
+.btn-orange-login:hover {
+    background-color: #D76812;
+    transition: .5s;
+    border-bottom: 2px solid #c16e36;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-orange-login:not(hover) {transition: .5s;}
+
+a.lien-bloc {
+    color: inherit;
+    display: block;
+}
+a.lien-bloc:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+a.lien-bloc div.border-orange-light {
+    transition: 1s;
+}
+
+a.linkImg {
+    display: block;
+    cursor: pointer;
+    margin-top: 15px;
+}
+a.linkImg figure {
+    margin: 0px;
+    padding: 0px;
+}
+a.linkImg img {width: 400px;}
+
+/**************** Multi ESPACE****************/
+
+
+/* DATATABLE */
+
+
+
+
+.espace-oec .bouton-datatable {
+    border: 1px solid #51a4ea;
+    color: #dc5454;
+}
+
+.espace-oec .bouton-datatable:visited,
+.espace-oec .bouton-datatable:focus,
+.espace-oec .bouton-datatable:active,
+.espace-oec .bouton-datatable:link {
+    color: #51a4ea;
+}
+
+.espace-oec .bouton-datatable:hover {
+    background: #51a4ea;
+    color: white;
+}
+
+.espace-cga .bouton-datatable {
+    border: 1px solid #dc5454;
+    color: #dc5454;
+}
+
+.espace-cga .bouton-datatable:visited,
+.espace-cga .bouton-datatable:focus,
+.espace-cga .bouton-datatable:active,
+.espace-cga .bouton-datatable:link {
+    color: #dc5454;
+}
+
+.espace-cga .bouton-datatable:hover {
+    background: #dc5454;
+    color: white;
+}
+
+.espace-ent .bouton-datatable {
+    border: 1px solid #228978;
+    color: #228978;
+}
+
+.espace-ent .bouton-datatable:visited,
+.espace-ent .bouton-datatable:focus,
+.espace-ent .bouton-datatable:active,
+.espace-ent .bouton-datatable:link {
+    color: #228978;
+}
+
+.espace-ent .bouton-datatable:hover {
+    background: #228978;
+    color: white;
+}
+
+.bouton-datatable {
+    background: #ffffff;
+    padding: 3px 12px;
+    letter-spacing: 0.3px;
+    font-size: 11px;
+    border-radius: 2px;
+    display: inline-block;
+    border: 1px solid #f66300;
+}
+
+.bouton-datatable:visited,
+.bouton-datatable:focus,
+.bouton-datatable:active,
+.bouton-datatable:link {
+    text-decoration: none;
+}
+
+.bouton-datatable:hover {
+    transition: 1s;
+    text-decoration: none;
+    color: white !important;
+}
+.bouton-datatable:not(hover) {
+    transition: 1s;
+    text-decoration: none;
+}
+/*italic*/
+#dt-liste-adherent tbody tr td:nth-child(3),
+#dt-liste-adherent tbody tr td:nth-child(4), 
+#dt-liste-liasse-comptable tr td:nth-child(4), 
+#dt-liste-liasse-comptable tr td:nth-child(5),
+#dt-liste-liasse-comptable tr td:nth-child(6),
+#dt-dernieres-liasses-a-attester tr td:nth-child(4),
+#dt-dernieres-liasses-a-attester tr td:nth-child(5),
+#dt-dernieres-liasses-a-attester tr td:nth-child(6),
+#dt-docs-formulaire-demande-attestation tr td:nth-child(5),
+#dt-suivi-avancement-demande-attestation tr td:nth-child(1),
+#dt-liste-demandes-exoneration-tva tr td:nth-child(5),
+#dt-demandes-attestations tr td:nth-child(3),
+#dt-demandes-attestations tr td:nth-child(4),
+.liste-declaration-effectue table tbody tr td:nth-child(5),
+.liste-declaration-effectue table tbody tr td:nth-child(7),
+#dt-demandes-remboursement-tva tr td:nth-child(2),
+#dt-demandes-remboursement-tva tr td:nth-child(3),
+#dt-documents tr td:nth-child(2),
+#dt-declaration-workflow tr td:nth-child(1),
+#dt-declaration-pieces-jointes tr td:nth-child(4),
+#dt-paiements-effectuer tr td:nth-child(2),
+#dt-paiements-effectuer tr td:nth-child(4),
+#dt-historique-declarations tr td:nth-child(4),
+#dt-historique-declarations tr td:nth-child(5),
+#dt-utilisateurs tr td:nth-child(3),
+.declaration-presentation tr td:nth-child(3),
+.declaration-presentation tr td:nth-child(6),
+.declaration-presentation tr td:nth-child(7),
+#dt-liste-paiements tr td:nth-child(2),
+#dt-liste-paiements tr td:nth-child(4) {
+    font-style: italic;
+    color: grey;
+}
+/*Strong*/
+#dt-liste-adherent tbody tr td:nth-child(2),
+#dt-liste-liasse-comptable tr td:nth-child(2),
+#dt-dernieres-liasses-a-attester tr td:nth-child(2),
+#dt-docs-formulaire-demande-attestation tr td:nth-child(1),
+#dt-suivi-avancement-demande-attestation tr td:nth-child(2),
+#dt-liste-demandes-exoneration-tva tr td:nth-child(2),
+#dt-demandes-attestations tr td:nth-child(2),
+.liste-declaration-effectue table tbody tr td:nth-child(4),
+#dt-demandes-remboursement-tva tr td:nth-child(6),
+#dt-documents tr td:nth-child(1),
+#dt-paiements-effectuer tr td:nth-child(1),
+#dt-historique-declarations tr td:nth-child(2),
+#dt-utilisateurs tr td:nth-child(4),
+.declaration-presentation tr td:nth-child(2),
+#dt-liste-paiements tr td:nth-child(1){
+    font-family: 'robotobold';
+}
+
+/* image */
+img.icone-arrow-15 {
+    width: 13px;
+    opacity: 0.5;
+    margin-right: 5px;
+}
+
+img.img-frag {
+    width: 20px;
+    margin-left: 3px;
+}
+
+a.btn-espace img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+img.titre-connexion {
+    width: 20px;
+    margin-right: 8px;
+    opacity: 0.6;
+}
+
+figure.container-icone-login-se {
+    background: #f9883c;
+    padding: 10px;
+    border-radius: 3px;
+    margin-right: 13px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+}
+
+@media (max-width:1024px) {
+  figure.container-icone-login-se {
+display : none
+}  
+}
+
+.border-cga figure {
+    background: #c54f4f;
+    padding: 10px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.border-comptable figure {
+    background: #448ac5;
+    padding: 10px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.border-contribuable figure {
+    background: #00a587;
+    padding: 10px;
+    border-radius: 3px;
+    display: inline-block;
+} 
+
+.border-particulier figure {
+    background: #e47b34;
+    padding: 10px;
+    border-radius: 3px;
+    display: inline-block;
+} 
+
+img.icone-login-se {
+    width: 12px;
+}
+
+img.icone-login-e {
+    width: 30px;
+}
+
+img.img-blog {
+    width: 100%;
+}
+
+
+/* bloc */
+
+.bloc-vert-border {
+    border-left: 5px solid #56A691;
+}
+
+.bloc-orange-border {
+    border-left: 5px solid #F66300;
+}
+
+.bloc-orange-border h2 {
+    color: #F66300 !important;
+}
+
+@media (max-width:414px) {
+    .bloc-btn-espace {
+        padding-bottom: 20px;
+    }
+}
+@media (max-width:768px) {
+    .connexion-module2 {
+        display: flex;
+        flex-direction: column !important;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .connexion-module2 .w-50 {
+        width: 100%;
+    }
+}
+
+div.bandeau-actu {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+div.bloc-actualite {
+    background: white;
+    border-radius: 3px;    
+    border: 0.5px solid #80808036;
+}
+
+div.menu-espace {
+    padding: 10px 0px;
+    background: #80808012;
+    border-top: 0.5px solid #80808059;
+}
+
+/* MESSAGE UTILE ET MESSAGE IMPORTANT*/
+
+/*IMPORTANT*/
+div.bloc-information-rouge {
+    background: #ffd2d285;
+    padding: 25px;
+    border-left: 3px solid #f94848;
+}
+
+div.bloc-information-rouge h5 {
+    font-family: 'ralewaybold';
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    color: #f94848;
+    margin: 0px 0px 10px 0px;
+}
+
+div.bloc-information-rouge p {
+    font-family: 'robotolight';
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+
+/*UTILE*/
+div.bloc-information {
+    border: 1px solid #80808038;
+}
+
+div.bloc-information h5 {
+    padding: 10px;
+    border-bottom: 0.5px solid #80808038;
+    background: #f8f8f8;
+    margin: 0px !important;
+    text-transform: uppercase;
+    font-family: 'ralewaybold';
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+div.bloc-information p {
+    color: #626262;
+    letter-spacing: 0.1px;
+    margin: 0px;
+}
+
+.bloc-information label {
+    margin: 0px;
+}
+
+.bloc-information img.xml {
+    width: 14px;
+    margin-right: 5px;
+}
+
+.bloc-information-vert {
+    background-color: rgba(0, 187, 154, 0.31);
+    color: #046d56;
+    padding: 15px;
+    border-left: 4px solid #046d56;
+}
+
+.bloc-information-vert p {
+    margin-bottom: 0px;
+    font-family: 'robotolight';
+}
+
+.bloc-information-vert span {
+    margin-bottom: 0px;
+    font-family: 'robotomedium';
+}
+
+.edition-etat {
+    padding: 15px 20px;
+    background: #f7f7f7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edition-etat-column {
+    padding: 15px 20px;
+    background: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+div.bloc-adhesion, div.bloc-adhesion-mobile {
+    z-index: 10;
+    width: 400px;
+    background-color: rgba(236, 236, 236, 0.90);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
+    border-radius: 3px;
+    padding: 20px;
+    border-left: 10px solid #f9883c91;
+}
+
+@media (max-width: 768px) {
+    div.bloc-adhesion, div.bloc-adhesion-mobile {
+        width: 313px;
+        margin-top: 20px;
+    }
+}
+
+
+
+
+h1.titre-blanc span.comptable {
+    color: #51a4ea;
+}
+
+h1.titre-blanc span.cga {
+    color: #dc5454;
+}
+
+h1.titre-blanc span.ent {
+    color: #4EB493;
+}
+
+p.date {
+    margin: 0px;
+    font-size: 13px;
+    letter-spacing: 0.2px;
+    color: #6565657d;
+}
+
+/**************** ESPACE ENTREPRISE ****************/
+#dt-liste-demandes-exoneration-tva_wrapper table tr th, 
+#dt-liste-demandes-exoneration-tva_wrapper table tr td  {
+    text-transform: uppercase;
+}
+
+.espace-ent .titre-recherche {
+    font-size: 13px;
+    color: #009177;
+    font-family: 'ralewaybold';
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin: 0 0 20px 0;
+}
+
+.espace-ent .bloc-connexion h3 {
+    font-family: 'ralewaybold';
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    color: #009177;
+    margin: 0px;
+}
+
+.espace-ent  div.bloc-connexion {
+    border-left: 1px solid #00917780;
+    padding-left: 15px;
+}
+
+.espace-ent .bloc-vert-border {
+    border-left: 5px solid #009177;
+}
+
+.espace-ent h2.new-title.vert, .espace-ent h2 {
+    font-size: 20px;
+    margin: 0px;
+    color: #009177;
+    font-family: 'robotolight';
+    margin-bottom: 15px;
+}
+
+.espace-ent h2.new-title.orange {
+    font-size: 20px;
+    margin: 0px;
+    color: #F66300;
+    font-family: 'robotolight';
+    margin-bottom: 15px;
+}
+
+#dt-suivi-avancement-demande-attestation_wrapper .dataTables_filter{
+    padding-top : 0px;
+}
+
+.en-tete-gris-fonce thead tr th {text-transform: uppercase;}
+
+.espace-ent .paiements-box .btn-orange {
+    color: #F66300;
+    font-size: 12px;
+    border: 0.5px solid #F6630085;
+    padding: 10px 17px;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.espace-ent .paiements-box .btn-orange:hover {
+    background: #F6630040;
+    transition: 1s;
+    text-decoration: none;
+    border: 0.5px solid #F6630040;
+}
+
+.espace-ent .paiements-box .btn-gris {
+    color: #757474;
+    font-size: 12px;
+    border: 0.5px solid #7574748f;
+    padding: 10px 17px;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.espace-ent .paiements-box .btn-gris:hover {
+    background: #75747438;
+    transition: 1s;
+    text-decoration: none;
+    border: 0.5px solid #75747438;
+}
+
+/* ALL COLORS */
+.btn-send {
+    font-family: 'robotoregular';
+    color: white;
+    padding: 13px 21px;
+    border-radius: 2px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+    box-shadow: 0px 3px 20px 0px rgba(0, 56, 46, 0.2);
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*Bouton Bleu*/
+.espace-oec .btn-send {
+    background: #51a4ea;
+    border-bottom: 2px solid #448DCA;
+}
+
+.espace-oec .btn-send:hover {
+    background: #448DCA;
+    box-shadow: none!important;
+    transition: 1s;
+    color: white;
+    text-decoration: none;
+}
+
+.espace-oec .btn-send:not(hover) {
+    transition: 1s;
+}
+
+/*Bouton rouge*/
+.espace-cga .btn-send {
+    background: #dc5454 !important;
+    border-bottom: 2px solid #a04141;
+}
+
+.espace-cga .btn-send:hover {
+    box-shadow: none!important;
+    transition: 1s;
+    background: #A5473F;
+    color: white;
+    text-decoration: none;
+}
+
+.espace-cga .btn-send:not(hover) {
+    transition: 1s;
+}
+
+/*Bouton gris*/
+.btn-retour {
+    background: #C1CAD2;
+    color: white;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    padding: 13px 21px;
+    border-radius: 2px;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+    box-shadow: 0px 3px 20px 0px rgba(0, 56, 46, 0.2);
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 2px solid #A7ADB5;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'robotoregular';
+}
+
+.btn-retour:hover {
+    box-shadow: none!important;
+    transition: 1s;
+    background: #A7ADB5;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-retour:not(hover) {
+    transition: 1s;
+}
+
+/*Bouton contour vert*/
+.btn-comptable {
+    background: white;
+    border: 1px solid #009177;
+    color: #009177;
+    font-size: 12px;
+    padding: 9px 20px;
+    border-radius: 2px;
+    font-family: 'robotomedium';
+    letter-spacing: 0.2px;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn-comptable i {
+    font-size: 15px;
+    margin-right: 4px;
+}
+
+.btn-comptable:hover i {
+    font-size: 15px;
+    color: white;
+     transition: 1s;
+}
+
+.btn-comptable:not(hover) {
+    transition: 1s;
+}
+
+
+.btn-comptable:hover {
+    background: #009177;
+    color:white;
+    transition: 1s;
+    text-decoration: none;
+}
+
+.btn-comptable:not(hover) {
+    transition: 1s;
+}
+
+/*Bouton vert*/
+.espace-ent .btn-send, .espace-eavis .btn-send {
+    background: #32bda3;
+    border-bottom: 2px solid #2ba68f;
+}
+
+.espace-ent .btn-send:hover, .espace-eavis .btn-send:hover {
+    box-shadow: none!important;
+    transition: 1s;
+    background: #2ba68f;
+    color: white;
+    text-decoration: none;
+}
+
+.espace-ent .btn-send:not(hover), .espace-eavis .btn-send:not(hover) {
+    transition: 1s;
+}
+
+/*Bouton orange*/
+.btn-send-orange {
+    background: #F66300;
+    color: white;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    padding: 13px 21px;
+    border-radius: 2px;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+    box-shadow: 0px 3px 20px 0px rgba(0, 56, 46, 0.2);
+    display: inline-block;
+    border-bottom: 2px solid #d65600;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'robotoregular';
+}
+
+.btn-send-orange:hover {
+    background:  #d65600;
+    color: white;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.btn-send-orange[disabled] {
+    background: #FDC599;
+    border-bottom: 1px solid #F66300;
+}
+
+.btn-send-orange:not(hover) {
+    transition: 1s;
+}
+
+.bouton-tab-grey {
+    background: #ffffff;
+    padding: 5px 12px;
+    color: #6f6f6f;
+    letter-spacing: 0.3px;
+    font-size: 11px;
+    border-radius: 2px;
+    width: 80px;
+    display: inline-block;
+    border: 1px solid #6f6f6f;
+    text-decoration: none;
+    font-family: 'robotoregular';
+}
+.bouton-tab-grey:hover {
+    background: #6f6f6f ;
+    transition: 1s;
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+}
+.bouton-tab-grey:not(hover) {
+    transition: 1s;
+    text-decoration: none;
+    color: #6f6f6f;
+}
+
+.btn-send:active, .btn-send:focus, 
+.btn-send-orange:active, .btn-send-orange:focus,
+.btn-comptable:active,.btn-comptable:focus {
+    color: white;text-decoration: none;
+}
+
+/* Phrase intro des pages d'accueil */
+p.description1 {
+    word-wrap: break-word;
+    margin-bottom: 10px;
+    font-family: 'robotoregular';
+    color: #646464;
+    letter-spacing: 0.2px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/* Phrase intro de toutes les pages */
+.description-titre {
+    word-wrap: break-word;
+    margin-bottom: 10px;
+    font-family: 'robotoregular';
+    color: #646464;
+    letter-spacing: 0.2px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+/**************** ESPACE EXPERT COMPTABLE ****************/
+
+.espace-oec h2 {
+    font-size: 20px;
+    margin: 0px;
+    color: #51a4ea;
+    font-family: 'robotolight';
+    margin-bottom: 15px;
+}
+
+.espace-oec .bloc-connexion h3 {
+    font-family: 'ralewaybold';
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    color: #51a4ea;
+    margin: 0px;
+}
+
+.espace-oec  div.bloc-connexion {
+    border-left: 1px solid #a9d1f58a;
+    padding-left: 15px;
+}
+
+.espace-oec .bandeau-societe .switch-compte {
+    border: 0.5px solid #51a4ea;
+    color: #51a4ea;
+}
+
+.espace-oec .bandeau-societe .switch-compte:hover {
+    background: #51a4ea3d;
+}
+
+.espace-oec div.bloc-btn-espace,
+.espace-ent div.bloc-btn-espace,
+.espace-cga div.bloc-btn-espace{
+    display: none;
+}
+
+.espace-oec .chevron-chemin.valider {
+    background: #a2c6e4;
+}
+
+.espace-oec .chevron-chemin.actif {
+    background: #51a4ea;
+}
+
+.espace-oec .chevron-chemin.actif::after {
+    border-left: 30px solid #51a4ea;
+}
+
+.espace-oec .chevron-chemin.valider::after {
+    border-left: 30px solid #a2c6e4;
+}
+
+.espace-oec .titre-vert-moyen {
+    color: #51a4ea;
+}
+
+.espace-oec .titre-vert-moyen img {
+    display: none;
+}
+
+.espace-oec .bloc-vert-border {
+    border-left: 5px solid #51a4eaa8;
+}
+
+.espace-oec .titre-vert {
+    color: #51a4ea;
+}
+
+.espace-oec .title-section2 {
+    color: #51a5ea;
+}
+
+.espace-oec ul.onglets-tabs li.current {
+    border-bottom: 2px solid #51a5ea;
+    color: #51a5ea;
+} 
+
+.espace-oec ul.onglets-tabs li.current a {
+    color: #51a5ea;
+}
+
+.espace-oec ul.onglets-tabs li:hover a, .espace-oec ul.onglets-tabs li:hover i {
+    color: #51a5ea
+}
+
+.espace-oec .nouveau-refresh a i {
+    color: #51a5ea;
+}
+
+.btn-white-save-fixed {
+    padding: 10px 15px 10px 40px;
+    border-radius: 3px;
+    color: #f66400;
+    background: white;
+    border: 0px;
+    background-image: url(https://e-impots.gouv.ci/img/save.svg);
+    background-repeat: no-repeat;
+    background-size: 14px;
+    background-position-y: center;
+    background-position-x: 16px;
+    transition: 1s;
+}
+.btn-white-save-fixed:hover {
+    cursor: pointer;
+    transition: 1s;
+    box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.2);
+}
+
+.btn-grey-save-fixed {
+    padding: 10px 15px 10px 15px;
+    border-radius: 3px;
+    color: white;
+    background: #C6C6C6;
+    border: 0px;
+    transition: 1s;
+    text-decoration: none;
+}
+.btn-grey-save-fixed:hover {
+    cursor: pointer;
+    transition: 1s;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.2);
+}
+
+.espace-oec .btn-success {
+    background-color: #51a5ea;
+    border-bottom: 2px solid #4087c1;
+}
+
+.espace-oec table.en-tete-gris-fonce thead tr th {
+    background: #6f6f6f !important;
+}
+
+.espace-oec .btn-comptable {
+    background: white;
+    border: 1px solid #51a4ea;
+    color: #51a4ea;
+}
+.espace-oec .btn-comptable :hover {
+    background:#51a4ea;
+    border: 1px solid #51a4ea;
+    color: white;
+}
+
+.espace-oec .table > thead > tr > th {
+    background-color: #51a4ea !important;
+}
+
+.espace-oec .footer-maj {
+    background-color: #96bad8;
+}
+
+.espace-oec .container-menu {
+    background-color: #51a4ea;
+}
+
+.espace-oec .navbar-inverse .container-menu  .navbar-nav > .active > a,
+.espace-oec .navbar-inverse .container-menu  .navbar-nav > .active > a:hover,
+.espace-oec .navbar-inverse .container-menu  .navbar-nav > .active > a:focus  > li > a.active
+{
+    background-color: #468bc5;
+}
+
+.espace-oec .navbar-inverse  .container-menu  .navbar-nav   > li.open  > a, 
+.espace-oec .navbar-inverse  .container-menu  .navbar-nav   > li.open  > a:focus,
+.espace-oec .navbar-inverse  .container-menu  .navbar-nav   > li.open   li > a:hover,
+.espace-oec .navbar-inverse  .container-menu  .navbar-nav   > li   > a:hover
+{
+    background-color: #468bc5;
+}
+
+.espace-oec .dropdown-menu>li>a:hover {
+    background-color: #468bc5 !important;
+}
+
+.espace-oec .navbar-nav>li.dropdown>ul.dropdown-menu>li>a{
+    background-color:#51a4ea;
+}
+
+
+
+/**************** ESPACE CGA ****************/
+
+/* Barre de navigation */
+.espace-cga .container-menu,
+.espace-cga .container-menu .navbar-nav > li.dropdown > ul.dropdown-menu > li > a
+{
+    background-color: #dc5454 !important;
+}
+
+.espace-cga .container-menu li.active a,
+.espace-cga .container-menu li a:hover,
+.espace-cga .container-menu .navbar-nav > li.dropdown > ul.dropdown-menu > li > a:hover,
+.espace-cga .container-menu .navbar-nav > li.open > a {
+    background-color: #9C3127 !important;
+}
+
+.espace-cga .bloc-connexion h3 {
+    font-family: 'ralewaybold';
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    color: #dc5454;
+    margin: 0px;
+}
+
+.espace-cga  div.bloc-connexion {
+    border-left: 1px solid #dc54542e;
+    padding-left: 15px;
+}
+
+.espace-cga h2 {
+    font-size: 20px;
+    margin: 0px;
+    color: #dc5454;
+    font-family: 'robotolight';
+    margin-bottom: 15px;
+}
+
+.espace-cga .bloc-vert-border {
+    border-left: 5px solid #dc5454;
+}
+
+.espace-cga .titre-recherche {
+    font-size: 13px;
+    color: #dc5454;
+    font-family: 'ralewaybold';
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin: 0 0 20px 0;
+}
+
+/*Footer*/
+.espace-cga .footer-maj {
+    background-color: #dc5454 !important;
+}
+
+/*Bouton*/
+
+.espace-cga .bandeau-societe .switch-compte {
+    color: #dc5454;
+    border: 0.5px solid #dc5454;
+}
+
+.espace-cga .bandeau-societe .switch-compte:hover {
+    background: #dc54542e;
+}
+
+textarea#COMMENTAIRE_ADHESION {
+    height: 34px;
+}
+
+/* BLOC CHANGER DE COMPTE */
+#multicompte-container {
+    position: fixed;
+    z-index: 13;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: #00000091;
+    transition: 1s;
+}
+
+#multicompte-container div.bloc-change-compte {
+    background: white;
+    min-width: 45%;
+    padding: 30px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 70px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: 12%;
+}
+
+#multicompte-container p.titre-changer-compte {
+    font-family: 'robotoregular';
+    font-size: 20px;
+}
+
+.espace-cga #multicompte-container p.titre-changer-compte {
+    color: #dc5454;
+}
+
+.espace-oec #multicompte-container p.titre-changer-compte {
+    color: #009177;
+}
+
+/**************** DATATABLE ****************/
+
+table.en-tete-orange thead tr th {
+    background-color: #f66300cc !important;
+    border-right: 1px solid #EC6913;
+    vertical-align: middle;
+}
+
+table.en-tete-gris-fonce thead tr th {
+    background-color: #6f6f6f !important;
+    border-right: 1px solid #535252;
+    vertical-align: middle;
+}
+
+.espace-ent table.en-tete-vert-clair thead tr th {
+    background-color: #009177cc !important;
+    border-right: 1px solid #228978;
+    vertical-align: middle;
+}
+
+.espace-oec table.en-tete-vert-clair thead tr th {
+    background-color: #4CA3ED !important;
+    border-right: 1px solid #3D92DC;
+    vertical-align: middle;
+}
+
+.espace-cga table.en-tete-rouge thead tr th {
+    background-color: #dc5454 !important;
+    border-right: 1px solid #c24b4b;
+    vertical-align: middle;
+}
+
+.espace-oec table.en-tete-bleu thead tr th {
+    background-color: #4CA3ED !important;
+    border-right: 1px solid #3D92DC;
+    vertical-align: middle;
+}
+
+.espace-ent table.en-tete-bleu thead tr th {
+    background-color: #009177cc !important;
+    border-right: 1px solid #228978;
+    vertical-align: middle;
+}
+
+table thead tr th:last-child {
+    border-right: none;
+}
+
+table.dataTable.en-tete-orange thead .sorting {background: #f66300cc url('https://e-impots.gouv.ci/js/jquery.dataTables/images/sort_both-orange.svg') no-repeat center right !important;}
+table.dataTable.en-tete-orange thead .sorting_desc {background: #f66300cc url('https://e-impots.gouv.ci/js/jquery.dataTables/images/sort_desc-orange.svg') no-repeat center right !important;}
+table.dataTable.en-tete-orange thead .sorting_asc {background: #f66300cc url('https://e-impots.gouv.ci/js/jquery.dataTables/images/sort_asc-orange.svg') no-repeat center right !important;}
+
+.espace-ent thead .sorting {background: #009177cc url('https://e-impots.gouv.ci/js/jquery.dataTables/images/sort_both-vert.svg') no-repeat center right !important;}
+.espace-ent thead .sorting_desc {background: #009177cc url('https://e-impots.gouv.ci/js/jquery.dataTables/images/sort_desc-vert.svg') no-repeat center right !important;}
+.espace-ent thead .sorting_asc {background: #009177cc url('https://e-impots.gouv.ci/js/jquery.dataTables/images/sort_asc-vert.svg') no-repeat center right !important;}
+
+.espace-cga table.dataTable.en-tete-rouge thead .sorting {background: #dc5454 url('https://e-impots.gouv.ci/js/jquery.dataTables/images/sort_both-rouge.svg') no-repeat center right !important;}
+.espace-cga table.dataTable.en-tete-rouge thead .sorting_desc {background: #dc5454 url('https://e-impots.gouv.ci/js/jquery.dataTables/images/sort_desc-rouge.svg') no-repeat center right !important;}
+.espace-cga table.dataTable.en-tete-rouge thead .sorting_asc {background: #dc5454 url('https://e-impots.gouv.ci/js/jquery.dataTables/images/sort_asc-rouge.svg') no-repeat center right !important;}
+
+table.dataTable.en-tete-gris-fonce thead .sorting {background: #6f6f6f url('https://e-impots.gouv.ci/js/jquery.dataTables/images/sort_both-gris.svg') no-repeat center right !important;}
+table.dataTable.en-tete-gris-fonce thead .sorting_desc {background: #6f6f6f url('https://e-impots.gouv.ci/js/jquery.dataTables/images/sort_desc-gris.svg') no-repeat center right !important;}
+table.dataTable.en-tete-gris-fonce thead .sorting_asc {background: #6f6f6f url('https://e-impots.gouv.ci/js/jquery.dataTables/images/sort_asc-gris.svg') no-repeat center right !important;}
+
+.espace-oec thead .sorting {background: #4CA3ED url('https://e-impots.gouv.ci/js/jquery.dataTables/images/sort_both-bleu.svg') no-repeat center right !important;}
+.espace-oec thead .sorting_desc {background: #4CA3ED url('https://e-impots.gouv.ci/js/jquery.dataTables/images/sort_desc-bleu.svg') no-repeat center right !important;}
+.espace-oec thead .sorting_asc {background: #4CA3ED url('https://e-impots.gouv.ci/js/jquery.dataTables/images/sort_asc-bleu.svg') no-repeat center right !important;}
+
+/**************** UTILITAIRE ****************/
+
+.flex-row-between-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-row-end-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.flex-row-start-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-row-end-center {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.flex-row-start-start {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.flex-column-between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.flex-column-align-end {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.flex-column-between-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+/* marge */
+.p-20 {
+    padding: 20px;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+.marge-bas-0 {
+    margin-bottom: 0px !important;
+}
+
+.marge-bas-5 {
+    margin-bottom: 5px !important;
+}
+
+.marge-bas-10 {
+    margin-bottom: 10px !important;
+}
+
+.marge-bas-20 {
+    margin-bottom: 20px !important;
+}
+
+.marge-bas-30 {
+    margin-bottom: 30px !important;
+}
+
+.marge-bas-40 {
+    margin-bottom: 40px !important;
+}
+
+.marge-droite-5 {
+    margin-right: 5px !important;
+}
+
+.marge-droite-10 {
+    margin-right: 10px !important;
+}
+
+.marge-gauche-10{
+    margin-left: 10px !important;
+}
+
+.marge-haut-20 {
+    margin-top: 20px !important;
+}
+
+.marge-haut-30 {
+    margin-top: 30px !important;
+}
+
+@media (max-width: 1024px) {
+    .marge-bas-30-tab {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 768px) {
+    .marge-bas-phone-30 {
+        margin-bottom: 30px;
+    }
+}
+
+/* largeur hauteur */
+.w-50 {
+    width: 50%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+
+
+/* MESSAGE LOGIN IMPORTANT*/
+
+.covid-message-background {
+    width: 100%; 
+    min-height: 100vh; 
+    background: rgb(000, 000, 000, 0.5);
+    position: absolute; 
+    top: 0px; 
+    right: 0px;
+    z-index: 200000;
+    display: flex; 
+    justify-content: center; 
+    align-content: center; 
+    align-items: center;
+}
+
+.covid-block {
+    width: 50%; 
+    min-height: 50%; 
+    background: white;
+    padding: 40px;
+    position: relative;
+    box-shadow: 4px 4px 14px black;
+    margin: 20px 0px;
+}
+
+@media (max-width: 1300px) {
+    .covid-block {
+        width: 70%; 
+    }
+}
+
+@media (max-width: 768px) {
+    .covid-block {
+        width: 90%;
+        padding: 25px;
+    }
+    .covid-top {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .covid-block .titre {
+        font-size: 15px !important;
+    }
+}
+
+.covid-top {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+.covid-top img {
+    height: 55px;
+    width: auto;
+    margin-right: 20px;
+}
+
+.covid-top button  {
+    background-color: white;
+    border: none;
+}
+
+.covid-top button i  {
+    font-size: 20px;
+    color: #f94848;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.covid-block .titre {
+    color: #f9883c;
+    font-family: 'robotobold';
+    font-size: 17px;
+}
+
+.covid-block p {
+    color: black;
+    font-family: 'robotolight';
+}
+
+.covid-block p span.important-vert {
+    color: #00b595;
+    font-family: 'robotobold';
+}
+
+.covid-block p.important-noir {
+    color: black;
+    font-family: 'robotobold';
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.covid-block ul li, .covid-block ul li a {
+    color: black;
+    font-family: 'robotolight';
+}
+
+
+.btn-send-red {
+    font-family: 'robotoregular';
+    color: white;
+    padding: 13px 21px;
+    border-radius: 2px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+    box-shadow: 0px 3px 20px 0px rgba(0, 56, 46, 0.2);
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    background: #f94848;
+    margin-left: 15px;
+}
+
+.btn-send-red:hover {
+    color: white;
+    text-decoration: none;
+}
+
+#login-cga .bloc-login-arrete {display: none;}
+
+.consulter-un-avis .bloc-login-arrete {display: none;}
+
+#login-expert-comptable .bloc-login-arrete {display: none;}
+
+
+#dt-details-tableau-variable_wrapper {overflow: auto;}
